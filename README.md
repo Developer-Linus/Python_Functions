@@ -37,3 +37,17 @@ check file `keyword_args.py` for an example.
 - Are the values that a function sends back to the caller after execution.
 - They are specified using **return** statement in Python.
 check `return_val.py` file for an example.
+
+# Variable Scope and Functions
+## Local Vs. Global
+- Variables defined within a function are called **local** and are only available within the function's body.
+- On the other hand, global variables are defined outside the functions and are available in the program.
+Check `local_global.py` file for a demonstrations.
+
+## `global` and `nonlocal` Keywords
+- `global` keyword is used to modify the global variable from within a function
+check the file `global_key.py` for an illustration
+- `nonlocal` keyword is used to modify a variable from an enclosing function within a nested function.
+- `nested function` is defined within another function.
+- `enclosing function` is the outer function containing the nested function
+Check `nonlocal_key.py` for a demonstration
